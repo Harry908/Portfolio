@@ -1,10 +1,13 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Hero from "./sections/Hero"
+import Showcase from "./sections/Showcase"
 
 const App = () => {
   return (
-   <>
-    <Hero />
-   </>
+    <>
+      <Hero/>
+      <Showcase/>
+    </>
   )
 }
 

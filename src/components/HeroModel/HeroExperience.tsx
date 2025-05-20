@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/react-in-jsx-scope */
 import {Canvas} from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import {useMediaQuery} from 'react-responsive'
 import { Room } from './Room';
+import {Robin} from './Robin'
 import HeroLights from './HeroLights';
 
 const HeroExperience = () => {
@@ -28,6 +30,7 @@ const HeroExperience = () => {
         position={[0,-3.5,0]}
         rotation={[0, - Math.PI /4,0]}
         >
+        
         <Room/>
       </group>
       
