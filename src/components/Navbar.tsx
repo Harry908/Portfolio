@@ -39,9 +39,7 @@ const NavBar = () => {
                         <span>Contact ME</span>
                     </div>
                 </a>
-
             </div>
-
         </header>
     )
 }

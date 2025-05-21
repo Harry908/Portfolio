@@ -1,5 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
-import NavBar from "./components/NavBar"
+import LogoSection from "./components/LogoSection"
+import NavBar from "./components/Navbar"
+import FeatureCards from "./sections/FeatureCards"
 import Hero from "./sections/Hero"
 import Showcase from "./sections/Showcase"
 
@@ -9,6 +11,8 @@ const App = () => {
       <NavBar />
       <Hero />
       <Showcase />
+      <LogoSection/>
+      <FeatureCards/>
     </>
   )
 }
