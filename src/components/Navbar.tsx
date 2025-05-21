@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { navLinks } from '../constants'
 
-const Navbar = () => {
+const NavBar = () => {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(()=>{
@@ -46,4 +46,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavBar

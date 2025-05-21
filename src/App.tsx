@@ -1,12 +1,12 @@
 /* eslint-disable react/react-in-jsx-scope */
-import Navbar from "./components/Navbar"
+import NavBar from "./components/NavBar"
 import Hero from "./sections/Hero"
 import Showcase from "./sections/Showcase"
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Hero />
       <Showcase />
     </>
