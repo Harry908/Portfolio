@@ -57,7 +57,7 @@ const Hero = () => {
                         </div>
 
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hello, this is Harry! Checkout my coding portfolio :)
+                            Hello, this is Huy Ky (I also go by Harry)! <br /> Checkout my coding portfolio :)
                         </p>
 
                         <Button

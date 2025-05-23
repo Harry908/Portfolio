@@ -246,21 +246,16 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "Github",
+    url: 'https://github.com/Harry908',
+    imgPath: "/images/gh.png",
   },
   {
     name: "linkedin",
+    url: 'https://www.linkedin.com/in/huy-ky-7282a918a/',
     imgPath: "/images/linkedin.png",
   },
+  
 ];
 
 export {

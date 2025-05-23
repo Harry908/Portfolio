@@ -17,8 +17,9 @@ const NavBar = () => {
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
             <div className='inner'>
-                <a className='logo' href='#hero'>
-                    Harry Ky
+                <a className='logo' href='#hero' style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <img src='/images/Logo.png' alt='Logo' style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+                    Huy Ky
                 </a>
 
                 <nav className='desktop'>
