@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/react-in-jsx-scope */
 import TitleHeader from '../components/TitleHeader';
 import { techStackIcons, techStackImgs } from '../constants';
 import TechIcon from '../components/Models/TechLogos/TechIcon';

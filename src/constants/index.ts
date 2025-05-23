@@ -37,36 +37,47 @@ const counterItems = [
 
 const logoIconsList = [
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-1.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-2.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-3.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-4.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-5.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-6.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-7.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-8.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-10.png",
   },
   {
+    name: 'com1',
     imgPath: "/images/logos/company-logo-11.png",
   },
 ];

@@ -5,7 +5,6 @@ import {Canvas} from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import {useMediaQuery} from 'react-responsive'
 import { Room } from './Room';
-import {Robin} from './Robin'
 import HeroLights from './HeroLights';
 
 const HeroExperience = () => {

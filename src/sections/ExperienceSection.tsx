@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/react-in-jsx-scope */
 import TitleHeader from '../components/TitleHeader'
 import { expCards } from '../constants'
 import GlowCard from '../components/GlowCard'
@@ -17,7 +17,7 @@ const ExperienceSection = () => {
     gsap.utils.toArray(".timeline-card").forEach((card) => {
       // Animate the card coming in from the left
       // and fade in
-      gsap.from(card, {
+      gsap.from(card as HTMLElement, {
         // Move the card in from the left
         xPercent: -100,
         // Make the card invisible at the start
@@ -31,7 +31,7 @@ const ExperienceSection = () => {
         // Trigger the animation when the card is 80% of the way down the screen
         scrollTrigger: {
           // The card is the trigger element
-          trigger: card,
+          trigger: card as HTMLElement,
           // Trigger the animation when the card is 80% down the screen
           start: "top 80%",
         },
@@ -70,7 +70,7 @@ const ExperienceSection = () => {
       // Animate the text opacity from 0 to 1
       // and move it from the left to its final position
       // over 1 second with a power2 ease-in-out curve
-      gsap.from(text, {
+      gsap.from(text as HTMLElement, {
         // Set the opacity of the text to 0
         opacity: 0,
         // Move the text from the left to its final position
@@ -83,7 +83,7 @@ const ExperienceSection = () => {
         // Trigger the animation when the text is 60% down the screen
         scrollTrigger: {
           // The text is the trigger element
-          trigger: text,
+          trigger: text as HTMLElement,
           // Trigger the animation when the text is 60% down the screen
           start: "top 60%",
         },

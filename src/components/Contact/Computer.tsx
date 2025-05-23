@@ -19,11 +19,11 @@ type GLTFResult = GLTF & {
     ['ComputerDesk.001']: THREE.MeshStandardMaterial
     ['FloppyDisk.001']: THREE.MeshStandardMaterial
   }
-  animations: GLTFAction[]
+  animations: GLTF['animations']
 }
 
-export function Computer(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/models/computer-optimized-transformed.glb') as GLTFResult
+export function Computer(props: React.JSX.IntrinsicElements['group']) {
+  const { nodes, materials } = useGLTF('/models/computer-optimized-transformed.glb') as unknown as GLTFResult
   return (
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>

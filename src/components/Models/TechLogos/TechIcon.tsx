@@ -1,9 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Environment, Float, OrbitControls, useGLTF } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber';
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import * as THREE from 'three';
 
 type iconProps = {

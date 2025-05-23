@@ -1,6 +1,4 @@
-
-import React from 'react';
-
+/* eslint-disable react/react-in-jsx-scope */
 type TitleHeaderProps = {
   title: string;
   sub: string;
